@@ -27,7 +27,7 @@ export default function Presentation() {
           }}
           className="text-8xl text-black text-wrap"
         >
-          Hello I'm Lucas Pari a FullStack Developer
+          Hello I&apos;m Lucas Pari a FullStack Developer
         </p>
       </div>
     </section>
