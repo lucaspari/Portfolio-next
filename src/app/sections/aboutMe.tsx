@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import Skills from "@/app/skills/skills";
+import Skills from "@/app/components/skills/skills";
 import { useInView } from "framer-motion";
 export default function AboutMe() {
   const ref = useRef(null);
