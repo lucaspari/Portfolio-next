@@ -6,7 +6,7 @@ export default function Presentation() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <section className="flex items-center gap-4">
+    <section className="flex items-center gap-4 h-screen">
       <div
         ref={ref}
         style={{
@@ -27,7 +27,7 @@ export default function Presentation() {
           }}
           className="text-8xl text-black text-wrap"
         >
-          Hello I'm Lucas Pari a BackEnd Developer
+          Hello I'm Lucas Pari a FullStack Developer
         </p>
       </div>
     </section>
